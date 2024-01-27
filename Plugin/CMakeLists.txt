@@ -13,7 +13,7 @@ juce_add_plugin(${PROJECT_NAME}
     PRODUCT_NAME "${PluginName}"
 )
 
-# juce_add_binary_data(AudioPluginData SOURCES Source/*.*)
+# juce_add_binary_data(AudioPluginData SOURCES Resources/*.*)
 
 target_sources(${PROJECT_NAME}
     PRIVATE
